@@ -1,0 +1,22 @@
+<>DePaul CDM Undergraduate ISM and UXD courses</>
+<li data-title="Introduction to User Experience Design" data-offered-spring="yes">ISM 101</li>
+<li data-title="Intersectional Themes and Design" data-offered-spring="no">ISM 205</li>
+<li data-title="Virtual Worlds and Online Communities" data-offered-spring="yes">ISM 208</li>
+<li data-title="Introduction to Human-Computer Interaction" data-offered-spring="yes">ISM 210</li>
+<li data-title="Interactive Design and Prototyping" data-offered-spring="yes">ISM 220</li>
+<li data-title="Information Visualization" data-offered-spring="yes">ISM 222</li>
+<li data-title="User Experience Design Frameworks" data-offered-spring="no">ISM 225</li>
+<li data-title="User Experience Research and Evaluation" data-offered-spring="no">ISM 260</li>
+<li data-title="User-Centered Web Design" data-offered-spring="no">ISM 270</li>
+<li data-title="Advanced Principles of Interactivity" data-offered-spring="yes">ISM 320</li>
+<li data-title="Interactive Media Scripting for Programmers" data-offered-spring="no">ISM 336</li>
+<li data-title="User Experience Research Method" data-offered-spring="no">ISM 360</li>
+<li data-title="Topics in Interactive and Social Media" data-offered-spring="no">ISM 390</li>
+<li data-title="User Experience Design Projects 1" data-offered-spring="no">ISM 394</li>
+<li data-title="User Experience Design Projects 2" data-offered-spring="yes">ISM 395</li>
+<li data-title="Independent Study" data-offered-spring="no">ISM 399</li>
+<li data-title="Computing Human Lives" data-offered-spring="no">UXD 227</li>
+<li data-title="Artificial Intelligence for User Experence Design" data-offered-spring="no">UXD 329</li>
+<li data-title="Quantitative Design Research Methods" data-offered-spring="no">UXD 381</li>
+<li data-title="Qualitative Design Research Methods" data-offered-spring="no">UXD 382</li>
+<>Checked courses are offered in Spring 2020</>

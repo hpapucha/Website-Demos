@@ -1,0 +1,83 @@
+.wrapper {
+    width: 80%;
+    padding: 2em;
+
+    
+}
+
+/*Image settings for test and main content flexbox settings*/
+/*
+img {
+    border: 5px solid red;
+}
+*/
+
+main {
+    font-size: 1.125em;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: flex-start;
+    
+}
+
+/*Footer and line break settings */
+footer {
+
+    text-align: center;
+         
+}
+
+hr {
+    color: lightskyblue;
+}
+
+/*Text media screen settings*/
+@media screen and (max-width: 800px) {
+  main {
+    flex: 60%;
+   flex-direction: row;
+    flex-flow: wrap;
+
+
+      width: 30vh;
+
+  }
+}
+
+@media screen and (max-width: 620px) {
+  main {
+      flex: 20%;
+      flex-direction: column;
+  }
+}
+
+/* Names after numbers widest screen */
+@media screen and (min-width: 1600px) {
+   li::after 
+    {
+    content: attr(data-title);
+    padding: 4px;
+    }}
+
+
+    li[data-offered-spring~="yes"]::before {
+        content: '\2705';
+    }
+
+/*Image text settings*/
+@media screen and (min-width: 630px) {
+.text {
+    position: relative;
+    font-size: 60px;
+    color: white;
+    bottom: 600px;
+    left: 16px;
+}}
+
+@media screen and (max-width:620px) {
+        .text {
+visibility:hidden;
+    }}
+
