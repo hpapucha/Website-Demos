@@ -1,0 +1,195 @@
+body {
+    background-color: aliceblue;
+}
+
+/*Logo*/
+.logo {
+    height:10em;
+    width:10em;
+}
+
+
+/* Navigation Menu CSS*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+float:left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.mainbanner {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+
+}
+/*------------------------*/
+
+
+/*Front Page Picture Centered Text*/
+#h2header{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    color: 	#1a0000;  
+    font-size: 32px;
+}
+
+
+@media screen and (max-width: 1500px) {
+  #h2header {
+font-size: 24px;
+  top: 45%;
+  left: 50%;
+       transform: translate(-50%, -50%);
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  #h2header {
+font-size: 16px;
+  top: 40%;
+  left: 50%;
+       transform: translate(-50%, -50%);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #h2header {
+display: none;
+  }
+}
+
+
+/*------------------------*/
+
+/*About Us Text Box*/
+.aboutus {
+     display: block;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+/*Main Section Pictures Flexbox and Links to Events*/
+main {
+    margin-top: 2em;
+    justify-content: center;
+display:flex;
+    flex-flow: row wrap;
+}
+
+.sectionone:first-child{
+    color: red;
+    text-align: center;
+}
+
+.sectiontwo:last-child{
+    color: red;
+    text-align: center;
+}
+
+.button {
+    background-color: black; 
+    border: none;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.button:hover {
+  background-color: antiquewhite;
+    color: black;
+}
+
+.socialmediasection {
+    margin-top: 2em;
+    display: block;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+/*Email Form CSS*/
+
+form {
+  font-family: Arial;
+  background-color: antiquewhite;
+width: 50%;
+    display: inline-block;
+    align-content: center;
+}
+
+.container {
+  padding: 20px;
+  background-color: antiquewhite;
+}
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+/*------------------------*/
+
+footer {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+
+}
+
+.footerlogo {
+        line-height: 140px;
+    vertical-align: middle;
+    height: 10em;
+    width: auto;
+    align-content:  center
+    
+}
+
+footer:p:last-of-type {
+}
+
+    p[data~="yes"]::before {
+        content: '\00A9';
+    }
+
+
