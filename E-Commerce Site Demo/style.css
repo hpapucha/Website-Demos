@@ -1,0 +1,68 @@
+/* .items {
+    float: left;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+.searchContainer {
+    text-align: center;
+/* } */
+/* .pagination {
+    margin-left: 530px;
+    text-align: center;
+    font-size: 36px;
+} */ */
+
+    
+body {
+    background-color: lightblue;
+  }
+
+div.buybest {
+    text-align:center;
+    font-family: Times New Roman;
+    font-style:bold;
+    font-size: 35px;
+    color:yellow;
+    border: 5px solid black;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px #ff0000;
+    overflow:  hidden;
+    background-color: red;
+
+}
+
+div.logo {
+    text-align:center;
+    font-style: italic;
+    font-weight: bold;
+    font-family: monospace;
+    color: yellow;
+    font-size: 170%;
+    border: 5px solid black;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px #ff0000;
+    overflow:  hidden;
+    background-color: lightcoral;
+}
+
+.container {
+    text-align:center;
+    font-style: italic;
+    font-weight: bold;
+    font-family: monospace;
+    color: black;
+    font-size: 170%;
+    border: 5px solid black;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px #ff0000;
+    overflow:  hidden;
+    background-color: lightcoral;
+}
+
+.price {
+    justify-content: center
+}
+
