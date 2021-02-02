@@ -1,0 +1,278 @@
+    
+body
+{background-color: ghostwhite;}
+
+.page-wrapper
+{
+ background-image: url("backg.png"); 
+width: 60em;
+margin: auto;
+border: 1px solid #BFBFBF}
+
+
+
+
+.intro {
+    display: flex;
+    flex-direction: column; 
+    font-family: sans-serif;
+    font-size: 0.99em;
+    padding: 5px;
+}
+
+.header {
+    flex-direction: column;   
+}
+
+.summary {
+    flex-direction: column;   
+    border: 1px solid #6495ED;
+    margin-bottom:1em;
+    padding: 0.25em;
+}
+
+.preamble {
+    flex-direction: column; 
+    border: 1px solid #6495ED;
+    margin-bottom:1em;
+    padding: 0.25em;
+    
+}
+
+h1 {
+  font-size: 2em;
+  text-align:center;
+  font-weight: bold;
+  font-family:monospace;
+  color:blue;
+}
+
+h2 {
+  font-size: 1.5em;
+  text-align:center;
+  font-family:monospace;
+  color:blue;
+}
+
+header
+{border: 1px solid #00FFFF;
+margin-bottom: 1em;}
+
+#zen-preamble h3 
+{font-size: 1.5em;
+color:aqua;}
+
+#zen-summary {
+font-style: italic;
+}
+
+#zen-summary h3 
+{font-size: 1.5em;
+color:aqua;
+}
+
+#zen-preamble h3 
+{font-size: 1.5em;
+color:aqua;}
+
+#zen-explanation h3 
+{font-size: 1.5em;
+color:aqua;}
+
+#zen-participation h3 
+{font-size: 1.5em;
+color:aqua;}
+
+#zen-benefits h3 
+{font-size: 1.5em;
+color:aqua;}
+
+#zen-requirements h3 
+{font-size: 1.5em;
+color:aqua;}
+
+.explanation
+{
+justify-content: center;
+flex-direction: column;
+width: 40%;  
+margin: 3em;
+border: 1px solid #6495ED;
+margin-bottom: 1em;
+padding: 0.25em;}
+
+.participation
+{
+height:inherit;
+width: 40%;
+border: 1px solid #6495ED;
+margin-bottom: 1em;
+padding: 0.25em;}
+
+.benefits
+{border: 1px solid #6495ED;
+margin-bottom: 1em;
+padding: 0.25em;}
+
+.requirements
+{border: 1px solid #6495ED;
+margin-bottom: 1em;
+padding: 0.25em;}
+
+.main {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  height: 100%;
+  font-family: sans-serif;
+  font-size: 0.99em;
+  padding: 5px;
+}
+
+footer {
+  display:flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.zen-validate-html
+{
+  margin: 3.5em;
+  background-image: url("HTML5_Logo_512.png");
+  color: white;
+  padding: 15px;
+  color: transparent;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.zen-validate-css
+{
+  margin: 3.6em;
+  background-image: url("CSS3.png");
+  color: white;
+  padding:24px;
+  color: transparent;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+.zen-license
+{
+  margin: 3.6em;
+  background-image: url("cc.large.png");
+  color: white;
+  padding:29px;
+  color: transparent;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.zen-accessibility
+{
+  margin: 3.6em;
+  background-image: url("accessibility_logo-300x300.png");
+  color: white;
+  padding: 30px 23px;
+  color: transparent;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.zen-github
+{
+  margin: 3.5em;
+  background-image: url("github-round.png");
+  color: white;
+  padding:29px;
+  color: transparent;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+
+.sidebar a:link {
+    font-weight: bold;
+    text-decoration: none;
+    color: green;
+}
+
+.sidebar a:visited {
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+}
+
+.sidebar a:hover {
+    font-weight: bold;
+    text-decoration: none;
+    color: skyblue;
+}
+
+.summary a:link {
+    font-weight: bold;
+    text-decoration: none;
+    color:green;
+}
+
+.summary a:visited {
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+}
+
+.summary a:hover {
+    font-weight: bold;
+    text-decoration: none;
+    color: skyblue;
+}
+
+.requirements a:link {
+    font-weight: bold;
+    text-decoration: none;
+    color: green;
+}
+
+.requirements a:visited {
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+}
+
+.requirements a:hover {
+    font-weight: bold;
+    text-decoration: none;
+    color: skyblue;
+}
+
+.participation a:link {
+    font-weight: bold;
+    text-decoration: none;
+    color: green;
+}
+
+.participation a:visited {
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+}
+
+.participation a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: skyblue;
+}
+
+
+
+
+
+
+

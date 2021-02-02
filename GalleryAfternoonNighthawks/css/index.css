@@ -1,0 +1,89 @@
+header {
+    text-align: center;
+    border: 1px solid #228B22;
+    background-color: #228B22;
+
+}
+
+.pagewrapper {
+    width:100%;
+}
+
+main {
+}
+
+/*.sunday*/ article:nth-of-type(1) {
+display:flex;
+flex-flow: row nowrap;
+justify-content: flex-start;
+align-items: stretch;
+align-content: flex-start}
+
+@media screen and (max-width: 500px) {
+  section:nth-of-type(1) {
+display:flex;  
+flex-flow: row wrap;
+background-color: green;
+justify-content: flex-start;
+align-items: stretch;
+align-content: flex-start}
+}
+    
+figure:nth-of-type(1) {
+    flex: 0 1 auto; 
+    order: 0;
+    align-self: stretch;
+    flex:100%;}
+
+@media screen and (max-width: 250em) {
+  figure:nth-of-type(1) {
+    flex: 50%;
+      background-color: yellow;
+      
+  }
+}
+
+@media screen and (max-width: 500px) {
+  figure:nth-of-type(1) {
+      background-color: red;
+    flex: 25%;
+  }
+}
+
+section:nth-of-type(){
+    flex: 0 1 auto; 
+    order: 1;
+    align-self: stretch;
+flex:100%}
+
+@media screen and (max-width: 250em) {
+section:nth-of-type(1) {
+    flex: 100%;
+      background-color: yellow;
+  }
+}
+
+@media screen and (max-width: 500px) {
+section:nth-of-type(1) {
+    flex:50%;
+      background-color: red;
+  }
+}
+
+
+
+.nighthawk {display:flex;  
+flex-flow: row nowrap;
+justify-content: flex-start;
+align-items: stretch;
+align-content: flex-start}
+
+.picturetwo {
+    flex: 0 1 auto; 
+    order: 1;
+    align-self: stretch;}
+
+.nighthawkafternoon {
+    flex: 0 1 auto; 
+    order: -1;
+    align-self: stretch;}
