@@ -1,0 +1,131 @@
+city + "kurec" + hotel + numberpeople + staydays + "opi" + values +"kolio" + meal;
+
+
+
+
+
+    
+        body
+                {background-color: aqua}
+        header 
+                {
+                text-align:center;
+                border: 5px solid blue;
+                width: 300px;
+                margin:auto;
+                width: 50%
+                }   
+    div.a       
+                {font-size: 300%}
+    div.b        
+                {font-size: 200%}    
+        
+        ul      {
+                list-style-type: none;
+                margin: 0;
+                padding: 15px;
+                overflow: hidden;
+                text-align: center;
+                width: 900px;
+                font-size: 30px;
+                display: block;
+            
+                
+                
+                
+                }
+
+        li          
+                {float: left;}
+
+
+        li a    {
+                display: block;
+                padding: 8px;
+                background-color: whitesmoke;
+
+
+                }   
+        nav 
+                {text-align:center; position: relative; display: inline-block;}
+        
+        #footer
+                {
+                font-family: Arial;
+                font-style:italic;
+                background-color:burlywood;
+                border: 2px solid #B22222;
+
+                }
+
+
+
+
+
+
+
+
+
+
+ 
+                    function calculator()
+                    {
+
+                    var city, hotel, numberpeople, staydays, values =0.00, meal, travelcost, hotelcost, totalcost;
+
+                    if (document.getElementById("st").checked)
+                    {city = document.getElementById("st").value;}
+                    else if (document.getElementById("mil").checked)
+                    {city = document.getElementById("mil").value;}
+                    else if (document.getElementById("detro").checked)
+                    {city = document.getElementById("detro").value;}
+                        
+                    if (document.getElementById("economy").checked)
+                    {hotel = document.getElementById("economy").value;}
+                    else if (document.getElementById("standard").checked)
+                    {hotel = document.getElementById("standard").value;}
+                    else if (document.getElementById("upscale").checked)
+                    {hotel = document.getElementById("upscale").value;}
+                        
+                    numberpeople = document.getElementById("travelers").value;
+                    staydays = document.getElementById("days").value;
+                    
+                    
+                    if ( document.getElementById("wifi").checked)
+                    values = values+(10.00);
+		            if ( document.getElementById("seat").checked)
+		            values = values+(20.00);   
+                        
+                    if (document.getElementById("none").checked)
+                    {meal = document.getElementById("none").value;}
+                    else if (document.getElementById("snack").checked)
+                    {meal = document.getElementById("snack").value;}
+                    else if (document.getElementById("fullmeal").checked)
+                    {meal = document.getElementById("fullmeal").value;}
+                        
+                    travelcost= (city*1*numberpeople) + (hotel*1*staydays);
+                    hotelcost= (values*1*numberpeople) + (meal*numberpeople);
+                    totalcost= travelcost + hotelcost;
+                
+		
+                    
+                    
+
+
+                    document.getElementById("TotalCost").innerHTML= totalcost;
+                        
+                        
+                    }
+    
+                    function email()   
+    
+                    {
+                    var first;
+
+                    first = confirm("We added you to our mailing list!")
+
+
+                    document.getElementById("OUTPUT").innerHTML
+
+                    }  
+    

@@ -1,0 +1,71 @@
+    
+        body
+                {background-color: aqua}
+        header 
+                {
+                text-align:center;
+                border: 5px solid blue;
+                width: 300px;
+                margin:auto;
+                width: 50%
+                }   
+    div.a       
+                {font-size: 300%}
+    div.b        
+                {font-size: 200%}    
+        
+        ul      {
+                list-style-type: none;
+                margin: 0;
+                padding: 15px;
+                overflow: hidden;
+                text-align: center;
+                width: 900px;
+                font-size: 30px;
+                display: block;
+            
+                
+                
+                
+                }
+
+        li          
+                {float: left;}
+
+
+        li a    {
+                display: block;
+                padding: 8px;
+                background-color: whitesmoke;
+
+
+                }   
+        nav 
+                {text-align:center; position: relative; display: inline-block;}
+        
+        #footer
+                {
+                font-family: Arial;
+                font-style:italic;
+                background-color:burlywood;
+                border: 2px solid #B22222;
+
+                }
+      
+        #contactusinfo
+
+                {
+                font-family: Times New Roman;
+                font-style:bold;
+                font-size: 40px;
+                color: orangered
+                }
+
+        #ifyou
+
+                {
+                font-family: Times New Roman;
+                font-style:bold;
+                font-size: 35px;
+                color: orangered
+                }

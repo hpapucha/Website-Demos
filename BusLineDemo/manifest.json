@@ -1,0 +1,14 @@
+"name": "Busline",
+"short_name": "Bus",
+"theme_color": "0f1113",
+"display": "standalone",
+"orientation": "portrait",
+"nscopre": "/",
+"start_url": "/",
+"icons": [
+    {
+        "src":"welcome.jpg"
+        "sizes": "72x72",
+        "type": "image/jpg"
+    }
+]

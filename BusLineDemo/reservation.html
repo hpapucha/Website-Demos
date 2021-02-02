@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Reservation </title>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="script.js"></script> 
+    
+    
+        <header>
+            <div class="a"> CHI BUS INC </div>
+            <div class="b"> We Are Always On Time </div>
+        </header>
+</head>
+<body>            
+    
+            <center><img src="bus_main.png" height="350" width="1000"></center>
+    
+            <br>
+            <br>
+
+
+<center>   
+<div id="nav">
+<ul>
+              <li><a href="busline_home.html">Home</a></li>
+              <li><a href="reservation.html">Make A Reservation</a></li>
+              <li><a href="contactus.html">Contact Us</a></li>
+              <li><a href="mailing.html">Join Our Mailing List</a></li>
+            </ul>
+</div><br><br>
+<form name="reservation">  
+<div id="username">
+        <div>Last Name <input type="text" id="last"></div><br>
+        <div>First Name <input type="text" id="first"></div> 
+       
+</div>
+<br>           
+<div id="acity">
+              <p>ARRIVAL CITY:</p>
+              St.Louis (40$)<input name="radio" id="st" value="40" type="radio" checked>
+              <br>
+              Milwaukee (20$) <input name="radio" id="mil" value="20" type="radio"> 
+              <br>
+              Detroit (35$)<input name="radio" id="detro" value="35" type="radio">            
+</div>
+<br>    
+    
+<div id="hotel">
+    
+              <p>HOTEL CHOICE:</p>
+              Economy (50$/day)<input name="radio2" id="economy" value="50" type="radio" checked>
+              <br>
+              Standard (70$/day)<input name="radio2" id="standard" value="70" type="radio"> 
+              <br>
+              Upscale (120$/day)<input name="radio2" id="upscale" value="120" type="radio">    
+</div>
+<br>   
+<div id="travelernumber">
+                <p>NUMBER OF TRAVELERS: 
+                    <select id="travelers">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    </select></p>    
+</div>
+<br>   
+<div id="daysnumber">
+                <p>NUMBER OF DAYS: 
+                    <select id="days">
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    </select></p>    
+</div>
+        
+<br> 
+    
+<div id="options">
+                    <p>OPTIONS:</p>
+                    <p>Wi-fi(10$)<input type="checkbox" id="wifi" value="10"/></p>
+                    <p>Fully-reclining seat (20$)<input type="checkbox" id="seat" value="20"/></p>
+</div>  
+    
+<br>
+<div id="meal">
+    
+                <p>MEAL CHOICE</p>
+                None<input name="radio3" id="none" type="radio" value=" " checked>
+                <br>
+                Snack (5$)<input name="radio3" id="snack" type="radio" value="5"> 
+                <br>
+                Full Meal (10$)<input name="radio3" id="fullmeal" type="radio" value="10">    
+</div>
+    
+<br>
+    
+<div id="specialrequest">
+                <p>SPECIAL REQUESTS:</p>
+                <p><textarea name="special" id="req" col="40" rows="5"></textarea></p>
+</div>
+ 
+    
+
+    
+<p><input type="button" class="button" value="Book My Trip" onclick="calculator()"/></p>
+<p id="TotalCost"></p>
+</form>
+</center> 
+     
+    
+   
+    
+ <br><br><br><br><br><br><br><br><br><br>        
+<div id="footer">
+    <center><br>Adress: 123 W Jackson st, Chicago, IL, 12345
+    <br>Mobile: (312) 333 4444 </center>  
+</div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</body>
+</html>
